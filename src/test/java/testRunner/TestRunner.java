@@ -27,5 +27,6 @@ public class TestRunner
 
             // Calling methods
             obj.setUp();
+            obj.setUp();
         }
 }
