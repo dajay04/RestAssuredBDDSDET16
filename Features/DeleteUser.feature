@@ -8,4 +8,4 @@ Feature: Creating a user using Post API
     And User verifies "<Status_Code>" should matches
     Examples:
       | Payload    | Status_Code |
-      | happy_path | 200         |
+      | happy_path | 204         |

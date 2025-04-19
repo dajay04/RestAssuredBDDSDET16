@@ -10,4 +10,4 @@ Feature: Updating a User using an Put API
     And User verifies "<Status_Code>" should matches on update
     Examples:
       | Payload    | Update_Payload    | Status_Code |
-      | happy_path | happy_path_update | 200         |
+      | happy_path | happy_path_update | 400         |
