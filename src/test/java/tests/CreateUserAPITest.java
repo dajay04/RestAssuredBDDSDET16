@@ -27,7 +27,7 @@ public class CreateUserAPITest extends BaseTest
         try
         {
             this.requestBody = methods.readJsonAsString(PayloadKeys.PAYLOAD_CREATE_USER + payloadPath + ".json")
-                    .replace("morpheus", "John" + randomNumber);
+                    .replace("morpheus", "Ajay" + randomNumber);
 
             System.out.println("The Payload seelcted is" + this.requestBody);
         }
