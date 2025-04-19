@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Create User">
+        <parameter name="payloadPath" value="happy_path"/>
+        <parameter name="code" value="201"/>
+        <classes>
+            <class name="tests.CreateUserAPITest">
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Update user">
+        <parameter name="payloadPath" value="happy_path_update"/>
+        <parameter name="code" value="200"/>
+        <classes>
+            <class name="tests.UpdateUserAPITest">
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Delete user">
+        <parameter name="code" value="204"/>
+        <classes>
+            <class name="tests.DeleteUserAPITest">
+            </class>
+        </classes>
+    </test>
+</suite>
