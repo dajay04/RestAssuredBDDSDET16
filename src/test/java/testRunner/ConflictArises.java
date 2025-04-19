@@ -10,8 +10,8 @@ public class ConflictArises
         }
         catch (Exception e)
         {
-            System.out.println("Element is clicking");
-            takeScreenshot("Albereta");
+            System.out.println("Element is Liking");
+            takeScreenshot("Given");
         }
 
     }
